@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.app.user</groupId>
-  <artifactId>UserInformation</artifactId>
+  <artifactId>userinformation</artifactId>
   <version>0.1</version>
   <packaging>${packaging}</packaging>
 
@@ -102,6 +102,9 @@
       <plugin>
         <groupId>io.micronaut.build</groupId>
         <artifactId>micronaut-maven-plugin</artifactId>
+        <configuration>
+          <baseImageRun>ubuntu</baseImageRun>
+        </configuration>
       </plugin>
       
       <plugin>

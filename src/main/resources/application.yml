@@ -1,7 +1,11 @@
 micronaut:
   application:
     name: userInformation
-neo4j.uri: bolt://${NEO4J_HOST:localhost}
+neo4j:
+  uri: bolt://host.docker.internal:7687
+  username: neo4j
+  password: n3b-Jwc-3w6-hXv
+
 netty:
   default:
     allocator:
