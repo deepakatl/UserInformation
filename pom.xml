@@ -103,7 +103,7 @@
         <groupId>io.micronaut.build</groupId>
         <artifactId>micronaut-maven-plugin</artifactId>
         <configuration>
-          <baseImageRun>ubuntu</baseImageRun>
+          <baseImageRun>ubuntu:18.04</baseImageRun>
         </configuration>
       </plugin>
       
