@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: userInformation
+neo4j.uri: bolt://${NEO4J_HOST:localhost}
+netty:
+  default:
+    allocator:
+      max-order: 3
